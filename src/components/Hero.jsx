@@ -11,6 +11,20 @@ const Hero = ({ heroPhoto, professionalSummary, stats }) => {
       </div>
 
       <div className="relative z-10 max-w-[95%] xl:max-w-[1400px] mx-auto px-4 sm:px-6 lg:px-8 w-full">
+        {/* Download CV strip */}
+        <div className="w-full flex justify-center lg:justify-end mb-6">
+          <a
+            href="/Mohith_Munagala_CV.pdf"
+            download
+            className="inline-flex items-center gap-3 px-6 py-3 rounded-full bg-white/15 border border-white/30 text-white font-semibold shadow-2xl backdrop-blur hover:bg-white/25 hover:scale-105 transition-all duration-300"
+          >
+            <span className="inline-flex h-10 w-10 items-center justify-center rounded-full bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 text-white font-bold shadow-lg">
+              ↓
+            </span>
+            <span className="text-lg tracking-tight">Download CV</span>
+          </a>
+        </div>
+
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-start">
           {/* Left Side - Name and Content */}
           <div className="text-center lg:text-left space-y-8 animate-fade-in-up px-2 lg:px-0 pt-8">
