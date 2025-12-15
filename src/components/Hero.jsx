@@ -30,7 +30,7 @@ const Hero = ({ heroPhoto, professionalSummary, stats }) => {
           <div className="text-center lg:text-left space-y-8 animate-fade-in-up px-2 lg:px-0 pt-8">
             {/* Big Highlighted Name */}
             <div className="space-y-4 overflow-visible">
-              <h1 className="text-6xl md:text-7xl lg:text-8xl font-black leading-tight tracking-tight break-words">
+              <h1 className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-black leading-tight tracking-tight break-words">
                 <span className="block bg-gradient-to-r from-blue-400 via-purple-400 to-pink-400 bg-clip-text text-transparent animate-gradient" style={{ 
                   WebkitTextStroke: '1px transparent',
                   textShadow: '0 0 30px rgba(147, 51, 234, 0.3)',

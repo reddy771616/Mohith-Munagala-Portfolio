@@ -7,7 +7,7 @@ const ProfessionalSummary = ({ professionalSummary }) => {
         <p className="m-0 text-blue-200 font-bold text-lg">Innovative and performance-driven Cloud & DevOps Engineer with proven expertise.</p>
       </div>
       <div className="bg-gradient-to-br from-slate-900/90 via-blue-900/30 to-purple-900/30 border-2 border-blue-400/40 rounded-2xl p-6 sm:p-8 shadow-xl backdrop-blur-sm transition-all hover:border-blue-400/80 hover:shadow-blue-500/30 hover:scale-[1.01] transform duration-300">
-        <p className="m-0 text-blue-100 leading-relaxed text-lg sm:text-xl text-justify font-semibold drop-shadow-lg">{professionalSummary}</p>
+        <p className="m-0 text-blue-100 leading-relaxed sm:leading-loose text-lg sm:text-xl text-left font-semibold drop-shadow-lg">{professionalSummary}</p>
       </div>
     </section>
   )
