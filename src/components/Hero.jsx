@@ -106,9 +106,6 @@ const Hero = ({ heroPhoto, professionalSummary, stats }) => {
               </div>
 
               {/* Floating Badge */}
-              <div className="absolute -bottom-6 -right-6 bg-gradient-to-r from-green-500 to-emerald-500 text-white px-6 py-3 rounded-full font-bold shadow-xl animate-float">
-                Open to Opportunities
-              </div>
             </div>
           </div>
         </div>
