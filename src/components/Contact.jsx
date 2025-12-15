@@ -27,11 +27,17 @@ const Contact = () => {
     try {
       const res = await fetch(endpoint, {
         method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
+        headers: { 
+          'Content-Type': 'application/json',
+          'Accept': 'application/json',
+        },
         body: JSON.stringify(formData),
       })
 
-      if (!res.ok) throw new Error('Network response was not ok')
+      if (!res.ok) {
+        const errorText = await res.text().catch(() => '')
+        throw new Error(errorText || 'Network response was not ok')
+      }
       setStatus({ state: 'success', note: 'Message sent! I will get back to you shortly.' })
       setFormData({ name: '', email: '', phone: '', message: '' })
     } catch (error) {
