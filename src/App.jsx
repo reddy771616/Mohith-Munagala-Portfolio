@@ -6,7 +6,7 @@ import Experience from "./components/Experience"
 import Education from "./components/Education"
 import Certifications from "./components/Certifications"
 import Contact from "./components/Contact"
-import heroPhoto from "./assets/Mohith.jpeg"
+import heroPhoto from "./assets/Profile.PNG"
 
 const stats = [
   { value: '4+ yrs', label: 'Cloud & DevOps delivery' },
