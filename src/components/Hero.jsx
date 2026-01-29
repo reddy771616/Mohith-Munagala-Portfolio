@@ -100,7 +100,7 @@ const Hero = ({ heroPhoto, professionalSummary, stats }) => {
                 <img 
                   src={heroPhoto} 
                   alt="Mohith Munagala - Cloud & DevOps Engineer" 
-                  className="w-full h-full object-cover object-[50%_40%]"
+                  className="w-full h-full object-cover object-[50%_10%]"
                   loading="eager"
                 />
               </div>
