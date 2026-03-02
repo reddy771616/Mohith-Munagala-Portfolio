@@ -14,7 +14,7 @@ const Hero = ({ heroPhoto, professionalSummary, stats }) => {
         {/* Download CV strip */}
         <div className="w-full flex justify-center lg:justify-end mb-6">
           <a
-            href="/Mohith%20Munagala_Cloud.pdf"
+            href={`${import.meta.env.BASE_URL}Mohith_Munagala_Cloud.pdf`}
             download
             className="inline-flex items-center gap-3 px-6 py-3 rounded-full bg-white/15 border border-white/30 text-white font-semibold shadow-2xl backdrop-blur hover:bg-white/25 hover:scale-105 transition-all duration-300"
           >
