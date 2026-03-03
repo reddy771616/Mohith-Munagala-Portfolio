@@ -49,7 +49,7 @@ const Hero = ({ heroPhoto, professionalSummary, stats }) => {
                 </span>
               </h1>
               <p className="text-2xl md:text-3xl font-bold text-white/90 mt-4">
-                Cloud & DevOps Engineer
+                Cloud & DevOps Engineer, AI Engineer
               </p>
             </div>
 
@@ -99,7 +99,7 @@ const Hero = ({ heroPhoto, professionalSummary, stats }) => {
               <div className="relative w-80 h-80 md:w-96 md:h-96 rounded-full overflow-hidden border-4 border-white/30 shadow-2xl hover:scale-105 transition-transform duration-300">
                 <img 
                   src={heroPhoto} 
-                  alt="Mohith Munagala - Cloud & DevOps Engineer" 
+                  alt="Mohith Munagala - Cloud & DevOps Engineer, AI Engineer" 
                   className="w-full h-full object-cover object-[50%_10%]"
                   loading="eager"
                 />

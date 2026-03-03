@@ -9,13 +9,13 @@ import Contact from "./components/Contact"
 import heroPhoto from "./assets/Profile.PNG"
 
 const stats = [
-  { value: '4+ yrs', label: 'Cloud & DevOps delivery' },
+  { value: '5+ yrs', label: 'Cloud, DevOps & AI delivery' },
   { value: '70% faster', label: 'Deploy cycles via GitOps' },
   { value: '45% lower', label: 'Cloud spend through governance' },
   { value: '99.99%', label: 'Uptime across multi-cloud' },
 ]
 
-const professionalSummary = `Innovative, performance-driven Cloud & DevOps Engineer with 4+ years of experience designing, automating, and optimizing multi-cloud infrastructure across AWS and Azure. Skilled in Docker and Kubernetes (EKS/AKS) to deploy scalable, secure, and resilient containerized applications. Deep hands-on with IaC (Terraform, Helm, CloudFormation) and CI/CD (Azure DevOps, Jenkins, GitHub Actions) to accelerate releases and boost reliability. Strong in microservices architecture, observability (App Insights, CloudWatch, Prometheus, Grafana), and cloud security via IAM, KMS, and Key Vault. Adept at DevSecOps automation, cost optimization, and cloud-native best practices to deliver compliant, high-performing, future-ready platforms.`
+const professionalSummary = `Cloud, DevOps, and AI Infrastructure Engineer with 5+ years of experience designing, automating, and operating enterprise-grade cloud and on-prem platforms across AWS and Azure. Strong expertise in Docker and Kubernetes (EKS, AKS, and on-prem clusters) for deploying scalable, GPU-enabled AI and microservices workloads. Hands-on experience implementing GitOps-driven CI/CD pipelines using Argo CD, Azure DevOps, and Jenkins to deliver secure, automated, and version-controlled deployments. Proven background in building Large Language Model (LLM) platforms using Retrieval-Augmented Generation (RAG), integrating PostgreSQL and Neo4j Knowledge Graphs for enterprise AI chatbot and export control systems. Skilled in Infrastructure as Code (Terraform, Helm, CloudFormation), cloud security (IAM, KMS, Azure Key Vault), and observability using Prometheus, Grafana, and Application Insights. Recognized for optimizing GPU resource utilization, improving deployment efficiency, and delivering production-ready AI infrastructure aligned with enterprise compliance and governance standards.`
 
 const skillAreas = [
   {
