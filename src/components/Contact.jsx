@@ -144,12 +144,12 @@ const Contact = () => {
               <span className="text-white/60 group-hover:text-white">→</span>
             </a>
 
-            <a className="group flex items-center justify-between gap-3 px-4 py-3 rounded-xl bg-white/5 border border-white/10 text-white/90 hover:text-white hover:border-purple-300/60 hover:bg-gradient-to-r hover:from-blue-500/20 hover:via-purple-500/20 hover:to-pink-500/20 transition-all duration-300 shadow-lg hover:shadow-purple-500/30" href="mailto:mohithmunagala14@gmail.com">
+            <a className="group flex items-center justify-between gap-3 px-4 py-3 rounded-xl bg-white/5 border border-white/10 text-white/90 hover:text-white hover:border-purple-300/60 hover:bg-gradient-to-r hover:from-blue-500/20 hover:via-purple-500/20 hover:to-pink-500/20 transition-all duration-300 shadow-lg hover:shadow-purple-500/30" href="mailto:mohithmunagala7716@gmail.com">
               <span className="flex items-center gap-3">
                 <span className="flex h-10 w-10 items-center justify-center rounded-full bg-gradient-to-r from-purple-500 to-pink-500 text-white font-bold shadow-md">✉️</span>
                 <span className="flex flex-col">
                   <span className="text-sm font-semibold">Email</span>
-                  <span className="text-xs text-white/70 group-hover:text-white/90">mohithmunagala14@gmail.com</span>
+                  <span className="text-xs text-white/70 group-hover:text-white/90">mohithmunagala7716@gmail.com</span>
                 </span>
               </span>
               <span className="text-white/60 group-hover:text-white">→</span>
